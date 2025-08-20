@@ -1,12 +1,3 @@
-Got it 👍 — the problem is that in your current README draft, the **Markdown formatting broke** because:
-
-1. You didn’t close the code block (`bash … `), so everything after it was rendered as plain text.
-2. Headings (`##`, `###`) weren’t properly spaced.
-3. Lists weren’t indented with correct Markdown syntax.
-
-Here’s a **clean, fully fixed `README.md`** you can directly paste into GitHub — formatting will work correctly this time:
-
-````markdown
 # Hybrid Deep Learning for Lung Sound Classification
 
 This repository contains the **major project** for classifying lung sounds using a **hybrid deep learning approach (CNN + LSTM)**. The project was carried out as part of the B.Tech program in **Computer Science Engineering (AI & DS)**.
@@ -39,10 +30,11 @@ This repository contains the **major project** for classifying lung sounds using
 ## ⚙️ How to Run the Notebook
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/harsh-ydv8/-Hybrid-Deep-Learning-for-Lung-Sound-Classification.git
    cd -Hybrid-Deep-Learning-for-Lung-Sound-Classification
-````
+
 
 2. **Open the Jupyter Notebook**
 
@@ -52,8 +44,8 @@ This repository contains the **major project** for classifying lung sounds using
 
 3. **Run the notebook cells** sequentially to reproduce preprocessing, training, and evaluation steps.
 
-   > ⚠️ **Note:** The dataset is not included in this repo.
-   > Download the [ICBHI 2017 Respiratory Sound Database](https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge) and update dataset paths in the notebook.
+   ⚠️ **Note:** The dataset is not included in this repo.
+   Download the [ICBHI 2017 Respiratory Sound Database](https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge) and update dataset paths in the notebook.
 
 ---
 
@@ -89,7 +81,3 @@ This repository contains the **major project** for classifying lung sounds using
 ---
 
 ⭐ If you find this project helpful, please **star the repo** and share your feedback!
-'''
-
-Do you also want me to add a **table of contents with clickable links** (like `[Project Overview](#-project-overview)`), so navigation becomes easier on GitHub?
-```
